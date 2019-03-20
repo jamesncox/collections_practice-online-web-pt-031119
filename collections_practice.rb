@@ -27,5 +27,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.detect.any("a")
+  array.detect.any?("a")
 end
