@@ -46,12 +46,12 @@ end
 #   end
 # end
 
-def add_s_collect(array)
+def add_s(array)
   array.each_with_index.collect do |word,index|
     if index != 1 
-      word = word + "s"
+      word + "s"
     else
-      word = word
+      word
     end
   end
 end
