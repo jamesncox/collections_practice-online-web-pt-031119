@@ -7,4 +7,5 @@ def sort_array_desc(num)
 end
 
 def sort_array_char_count(strings)
-  strings.sort.
+  strings.chars.sort.join
+end
